@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC03FE071BFBCA6A002D9ED3 /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03FE061BFBCA6A002D9ED3 /* AboutUs.m */; };
+		BC3459E81C5F72A6004AA137 /* WebsiteOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3459E71C5F72A6004AA137 /* WebsiteOpen.m */; };
+		BC553A001C5DF857005124A1 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5539FF1C5DF857005124A1 /* FeedbackViewController.m */; };
+		BCD04DCD1BF084E20099D420 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD04DCC1BF084E20099D420 /* TeamViewController.m */; };
 		BCE5BEB31BEFB7EB00CA53AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEB21BEFB7EB00CA53AC /* main.m */; };
 		BCE5BEB61BEFB7EB00CA53AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEB51BEFB7EB00CA53AC /* AppDelegate.m */; };
 		BCE5BEB91BEFB7EB00CA53AC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEB81BEFB7EB00CA53AC /* FirstViewController.m */; };
@@ -16,6 +20,11 @@
 		BCE5BEC41BEFB7EB00CA53AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE5BEC21BEFB7EB00CA53AC /* LaunchScreen.storyboard */; };
 		BCE5BECF1BEFB7EB00CA53AC /* SRMbyagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BECE1BEFB7EB00CA53AC /* SRMbyagTests.m */; };
 		BCE5BEDA1BEFB7EC00CA53AC /* SRMbyagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BED91BEFB7EC00CA53AC /* SRMbyagUITests.m */; };
+		BCE5BEE91BEFBB4800CA53AC /* nowAtSRM.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEE81BEFBB4800CA53AC /* nowAtSRM.m */; };
+		BCE5BEEF1BEFC0E500CA53AC /* events.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEEE1BEFC0E500CA53AC /* events.m */; };
+		BCE5BEF21BEFC10400CA53AC /* notesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEF11BEFC10400CA53AC /* notesViewController.m */; };
+		BCE5BEF51BEFC11700CA53AC /* publishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEF41BEFC11700CA53AC /* publishViewController.m */; };
+		BCE5BEF81BEFC12500CA53AC /* storeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5BEF71BEFC12500CA53AC /* storeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC03FE051BFBCA6A002D9ED3 /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUs.h; sourceTree = "<group>"; };
+		BC03FE061BFBCA6A002D9ED3 /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUs.m; sourceTree = "<group>"; };
+		BC3459E61C5F72A6004AA137 /* WebsiteOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteOpen.h; sourceTree = "<group>"; };
+		BC3459E71C5F72A6004AA137 /* WebsiteOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteOpen.m; sourceTree = "<group>"; };
+		BC5539FE1C5DF857005124A1 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		BC5539FF1C5DF857005124A1 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		BCD04DCB1BF084E20099D420 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		BCD04DCC1BF084E20099D420 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
 		BCE5BEAE1BEFB7EB00CA53AC /* SRMbyag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRMbyag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE5BEB21BEFB7EB00CA53AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCE5BEB41BEFB7EB00CA53AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +71,16 @@
 		BCE5BED51BEFB7EC00CA53AC /* SRMbyagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRMbyagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE5BED91BEFB7EC00CA53AC /* SRMbyagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRMbyagUITests.m; sourceTree = "<group>"; };
 		BCE5BEDB1BEFB7EC00CA53AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE5BEE71BEFBB4800CA53AC /* nowAtSRM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nowAtSRM.h; sourceTree = "<group>"; };
+		BCE5BEE81BEFBB4800CA53AC /* nowAtSRM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nowAtSRM.m; sourceTree = "<group>"; };
+		BCE5BEED1BEFC0E500CA53AC /* events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = events.h; path = ../events.h; sourceTree = "<group>"; };
+		BCE5BEEE1BEFC0E500CA53AC /* events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = events.m; path = ../events.m; sourceTree = "<group>"; };
+		BCE5BEF01BEFC10400CA53AC /* notesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notesViewController.h; sourceTree = "<group>"; };
+		BCE5BEF11BEFC10400CA53AC /* notesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notesViewController.m; sourceTree = "<group>"; };
+		BCE5BEF31BEFC11700CA53AC /* publishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publishViewController.h; sourceTree = "<group>"; };
+		BCE5BEF41BEFC11700CA53AC /* publishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = publishViewController.m; sourceTree = "<group>"; };
+		BCE5BEF61BEFC12500CA53AC /* storeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storeViewController.h; sourceTree = "<group>"; };
+		BCE5BEF71BEFC12500CA53AC /* storeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = storeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +137,27 @@
 				BCE5BEB81BEFB7EB00CA53AC /* FirstViewController.m */,
 				BCE5BEBA1BEFB7EB00CA53AC /* SecondViewController.h */,
 				BCE5BEBB1BEFB7EB00CA53AC /* SecondViewController.m */,
+				BCE5BEE71BEFBB4800CA53AC /* nowAtSRM.h */,
+				BCE5BEE81BEFBB4800CA53AC /* nowAtSRM.m */,
+				BCE5BEED1BEFC0E500CA53AC /* events.h */,
+				BCE5BEEE1BEFC0E500CA53AC /* events.m */,
+				BCE5BEF61BEFC12500CA53AC /* storeViewController.h */,
+				BCE5BEF71BEFC12500CA53AC /* storeViewController.m */,
+				BCE5BEF31BEFC11700CA53AC /* publishViewController.h */,
+				BCE5BEF41BEFC11700CA53AC /* publishViewController.m */,
+				BCE5BEF01BEFC10400CA53AC /* notesViewController.h */,
+				BCE5BEF11BEFC10400CA53AC /* notesViewController.m */,
+				BCD04DCB1BF084E20099D420 /* TeamViewController.h */,
+				BCD04DCC1BF084E20099D420 /* TeamViewController.m */,
+				BC5539FE1C5DF857005124A1 /* FeedbackViewController.h */,
+				BC5539FF1C5DF857005124A1 /* FeedbackViewController.m */,
+				BC03FE051BFBCA6A002D9ED3 /* AboutUs.h */,
+				BC03FE061BFBCA6A002D9ED3 /* AboutUs.m */,
+				BC3459E61C5F72A6004AA137 /* WebsiteOpen.h */,
+				BC3459E71C5F72A6004AA137 /* WebsiteOpen.m */,
 				BCE5BEBD1BEFB7EB00CA53AC /* Main.storyboard */,
-				BCE5BEC01BEFB7EB00CA53AC /* Assets.xcassets */,
 				BCE5BEC21BEFB7EB00CA53AC /* LaunchScreen.storyboard */,
+				BCE5BEC01BEFB7EB00CA53AC /* Assets.xcassets */,
 				BCE5BEC51BEFB7EB00CA53AC /* Info.plist */,
 				BCE5BEB11BEFB7EB00CA53AC /* Supporting Files */,
 			);
@@ -278,10 +323,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE5BEF51BEFC11700CA53AC /* publishViewController.m in Sources */,
 				BCE5BEBC1BEFB7EB00CA53AC /* SecondViewController.m in Sources */,
+				BCE5BEE91BEFBB4800CA53AC /* nowAtSRM.m in Sources */,
+				BCE5BEEF1BEFC0E500CA53AC /* events.m in Sources */,
+				BCE5BEF21BEFC10400CA53AC /* notesViewController.m in Sources */,
+				BCE5BEF81BEFC12500CA53AC /* storeViewController.m in Sources */,
 				BCE5BEB61BEFB7EB00CA53AC /* AppDelegate.m in Sources */,
 				BCE5BEB91BEFB7EB00CA53AC /* FirstViewController.m in Sources */,
+				BC3459E81C5F72A6004AA137 /* WebsiteOpen.m in Sources */,
+				BCD04DCD1BF084E20099D420 /* TeamViewController.m in Sources */,
 				BCE5BEB31BEFB7EB00CA53AC /* main.m in Sources */,
+				BC553A001C5DF857005124A1 /* FeedbackViewController.m in Sources */,
+				BC03FE071BFBCA6A002D9ED3 /* AboutUs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SRMbyag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NamanMaheshwari.SRMbyag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +487,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SRMbyag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NamanMaheshwari.SRMbyag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -505,6 +562,7 @@
 				BCE5BEE01BEFB7EC00CA53AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE5BEE11BEFB7EC00CA53AC /* Build configuration list for PBXNativeTarget "SRMbyagTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +571,7 @@
 				BCE5BEE31BEFB7EC00CA53AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE5BEE41BEFB7EC00CA53AC /* Build configuration list for PBXNativeTarget "SRMbyagUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +580,7 @@
 				BCE5BEE61BEFB7EC00CA53AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

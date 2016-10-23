@@ -10,6 +10,9 @@
 
 @interface SecondViewController : UIViewController
 
+- (IBAction)feedbackButton:(id)sender;
+- (IBAction)websiteButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
